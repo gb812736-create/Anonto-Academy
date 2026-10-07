@@ -3,19 +3,11 @@
 Mobile-first Android cybersecurity learning app designed to be built from GitHub Actions.
 
 ## GitHub mobile workflow
-1. Create or open the GitHub repository.
+1. Create a GitHub repository named `Anonto-Academy`.
 2. Upload the contents of this folder to the repository's `main` branch.
 3. Open **Actions → Build Android APK**.
-4. Tap **Run workflow** when you want to build an APK. A push to `main` also starts a build automatically.
-5. When the workflow finishes successfully, open the run and download **anonto-academy-debug-apk** from **Artifacts**.
-
-## Build configuration
-- Android Gradle Plugin: 8.7.3
-- Kotlin: 2.0.21
-- Gradle: 8.10.2 (provided by GitHub Actions)
-- JDK: 17
-- Compile/Target SDK: 35
-- Minimum SDK: 26
+4. Run the workflow (or push to `main`).
+5. Open the completed workflow and download **AnontoAcademy-debug-apk** from Artifacts.
 
 ## Included foundation
 - Anonto Academy branding
